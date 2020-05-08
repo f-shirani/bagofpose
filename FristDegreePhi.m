@@ -1,7 +1,7 @@
 
 function phi = FristDegreePhi(X1,X2,J,BodyU,BodyR)
 
-       
+      % The first degree joints are those that are adjacent to the torso 
         Pointx = J(:,3 * X1 -2);
         Pointy = J(:,3 * X1 -1);
         Pointz = J(:,3 * X1 -0);
