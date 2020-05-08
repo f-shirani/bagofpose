@@ -21,7 +21,7 @@ for i = 1 : size(data,1)
             FeatureVectors = [];
             rows=size(videoFrames,1);
             for frame = 1 : rows
-                J = videoFrames(frame,1:end);
+                J = videoFrames(frame,1:end);% joint position in every frame
                 FV =Features(frame,J); % feature vector for each frame
                 FeatureVectors =[FV;FeatureVectors ];
             end
