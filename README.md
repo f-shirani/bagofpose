@@ -1,4 +1,4 @@
 # bagofpose
-recognizing action relies on skeletal based representation of human body.
-using Florence dataset.
+Recognizing action relies on skeletal based representation of human body
+Using Florence dataset.
 
